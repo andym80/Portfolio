@@ -1,168 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
 
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <header class="bg-image">
+    <nav class="nav nav-pills bg-light flex-column space-between flex-md-row">
+      <a
+        class="flex-sm-fill text-bg-light-sm-left p-3"
+        aria-current="page"
+        href="#"
+        >My Logo</a
+      >
+      <a class="flex-end-sm-fill text-bg-light-sm-right p-3"
+        ><img class="menu" src="./images/IconMenu.svg" alt="ham"
+      /></a>
+    </nav>
 
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"/>
-</head>
-
-<header class="bg-image">
-
-
-  <nav class="nav nav-pills bg-light flex-column space-between flex-md-row">
-  <a class="flex-sm-fill text-bg-light-sm-left p-3" aria-current="page" href="#">My Logo</a>
-  <a class="flex-end-sm-fill text-bg-light-sm-right p-3"><img class="menu" src="./images/IconMenu.svg" alt="ham"></a>
-</nav>
-
-<div class="col cols-6 d-flex flex-column justify-content-start ms-5">
-<h1 class="row-2 h1 text-left">I'm Andy.<br>Glad to see you! </h1>
-<p class="row-3 p text-left">I’m a software developer! I can help you build a product , feature or website Look through<br>
-  some of my work and experience! If you like what you see and have a project you need<br> coded, don’t hestiate to contact me.</p>
-</div>
-<div class="h6 row-4 ms-5">LET'S CONNECT</div>
-<ul class="list-inline-item row-5 ms-2">
-<li class="list-inline-item ms-2"><img src="./images/twitter.svg" alt="Twitter"/></li>
-<li class="list-inline-item ms-2"><img src="./images/linkedin.svg" alt="Linkedin"/></li>
-<li class="list-inline-item ms-2"><img src="./images/m.svg" alt="M"/></li>
-<li class="list-inline-item ms-2"><img src="./images/github.svg" alt="GitHub"/></li>
-<li class="list-inline-item ms-2"><img src="./images/vector.svg" alt="V"/></li>
-</ul>
-
-
-</header>
-<body>
-
-
-
-<section class="container">
-<article class="mt-5">
-  <div class="card w-100%">
-    <div class="card-body d-flex flex-row">
-      <img src="./images/snapshoot-portfolio.svg" alt="portfolio images">
-
-      <div class="d-flex flex-column justify-content-ms-end">
-      <h5 class="card-title ms-4">Tonic</h5>
-<ul class="list-inline-itemt">
-<li class="list-inline-item text-black">CANOPY</li>
-<li class="list-inline-item"><img src="./images/counter.png" alt="dot"/></li>
-<li class="list-inline-item text-black-50">Back End Dev</li>
-<li class="span list-inline-item"><img src="./images/counter.png" alt="dot"/></li>
-<li class="list-inline-item text-black-50">2015</li>
-</ul>
-      <p class="card-text ms-4">A daily selection of privately personalized reads; no accounts<br>
-         or sign-ups required.</p>
-         <ul class="list-inline-item">
-           <li class="list-inline-item"><img src="images/html.png" alt="html"></li>
-           <li class="list-inline-item"><img src="images/css.png" alt="css"></li>
-           <li class="list-inline-item"><img src="images/javascript.png" alt="js"></li>
-         </ul>
-      <button type="button" class="btn btn-primary col-4 ms-4">See project</button>
-        </div>
+    <div class="col cols-6 d-flex flex-column justify-content-start ms-5">
+      <h1 class="row-2 h1 text-left">I'm Andy.<br />Glad to see you!</h1>
+      <p class="row-3 p text-left">
+        I’m a software developer! I can help you build a product , feature or
+        website Look through<br />
+        some of my work and experience! If you like what you see and have a
+        project you need<br />
+        coded, don’t hestiate to contact me.
+      </p>
     </div>
-  </div>
-</article>
+    <div class="h6 row-4 ms-5">LET'S CONNECT</div>
+    <ul class="list-inline-item row-5 ms-2">
+      <li class="list-inline-item ms-2">
+        <img src="./images/twitter.svg" alt="Twitter" />
+      </li>
+      <li class="list-inline-item ms-2">
+        <img src="./images/linkedin.svg" alt="Linkedin" />
+      </li>
+      <li class="list-inline-item ms-2">
+        <img src="./images/m.svg" alt="M" />
+      </li>
+      <li class="list-inline-item ms-2">
+        <img src="./images/github.svg" alt="GitHub" />
+      </li>
+      <li class="list-inline-item ms-2">
+        <img src="./images/vector.svg" alt="V" />
+      </li>
+    </ul>
+  </header>
+  <body>
+    <section class="container">
+      <article class="mt-5">
+        <div class="card w-100%">
+          <div class="card-body d-flex flex-row">
+            <img
+              src="./images/snapshoot-portfolio.svg"
+              alt="portfolio images"
+            />
 
-<article class="mt-5">
-  <div class="card w-100%">
-    <div class="card-body d-flex flex-row">
-
-
-      <div class="d-flex flex-column justify-content-ms-start">
-      <h5 class="card-title ms-4">Multi-Post Stories</h5>
-<ul class="list-inline-item">
-<li class="list-inline-item text-black">FACEBOOK</li>
-<li class="list-inline-item"><img src="./images/counter.png" alt="dot"/></li>
-<li class="list-inline-item text-black-50">Full Stack Dev</li>
-<li class="span list-inline-item"><img src="./images/counter.png" alt="dot"/></li>
-<li class="list-inline-item text-black-50">2015</li>
-</ul>
-      <p class="card-text ms-4">Experimental content creation feature that allows users to<br>
-        add to an existing story over the course of a day without<br>
-         spamming their friends.</p>
-         <ul class="list-inline-item">
-           <li class="list-inline-item"><img src="images/html.png" alt="html"></li>
-           <li class="list-inline-item"><img src="images/css.png" alt="css"></li>
-           <li class="list-inline-item"><img src="images/javascript.png" alt="js"></li>
-         </ul>
-      <button type="button" class="btn btn-primary col-4 ms-4">See project</button>
+            <div class="d-flex flex-column justify-content-ms-end">
+              <h5 class="card-title ms-4">Tonic</h5>
+              <ul class="list-inline-itemt">
+                <li class="list-inline-item text-black">CANOPY</li>
+                <li class="list-inline-item">
+                  <img src="./images/counter.png" alt="dot" />
+                </li>
+                <li class="list-inline-item text-black-50">Back End Dev</li>
+                <li class="span list-inline-item">
+                  <img src="./images/counter.png" alt="dot" />
+                </li>
+                <li class="list-inline-item text-black-50">2015</li>
+              </ul>
+              <p class="card-text ms-4">
+                A daily selection of privately personalized reads; no
+                accounts<br />
+                or sign-ups required.
+              </p>
+              <ul class="list-inline-item">
+                <li class="list-inline-item">
+                  <img src="images/html.png" alt="html" />
+                </li>
+                <li class="list-inline-item">
+                  <img src="images/css.png" alt="css" />
+                </li>
+                <li class="list-inline-item">
+                  <img src="images/javascript.png" alt="js" />
+                </li>
+              </ul>
+              <button type="button" class="btn btn-primary col-4 ms-4">
+                See project
+              </button>
+            </div>
+          </div>
         </div>
-        <img src="./images/snapshootportfolio4.png" alt="portfolio images2">
-    </div>
+      </article>
 
-  </div>
-</article>
-
-<article class="mt-5">
-  <div class="card w-100%">
-    <div class="card-body d-flex flex-row">
-      <img src="./images/snapshoot-portfolio.svg" alt="portfolio images3">
-
-      <div class="d-flex flex-column justify-content-ms-end">
-      <h5 class="card-title ms-4">Tonic</h5>
-<ul class="list-inline-itemt">
-<li class="list-inline-item text-black">CANOPY</li>
-<li class="list-inline-item"><img src="./images/counter.png" alt="dot"/></li>
-<li class="list-inline-item text-black-50">Back End Dev</li>
-<li class="span list-inline-item"><img src="./images/counter.png" alt="dot"/></li>
-<li class="list-inline-item text-black-50">2015</li>
-</ul>
-      <p class="card-text ms-4">A daily selection of privately personalized reads; no accounts<br>
-         or sign-ups required.</p>
-         <ul class="list-inline-item">
-           <li class="list-inline-item"><img src="images/html.png" alt="html"></li>
-           <li class="list-inline-item"><img src="images/css.png" alt="css"></li>
-           <li class="list-inline-item"><img src="images/javascript.png" alt="js"></li>
-         </ul>
-      <button type="button" class="btn btn-primary col-4 ms-4">See project</button>
+      <article class="mt-5">
+        <div class="card w-100%">
+          <div class="card-body d-flex flex-row">
+            <div class="d-flex flex-column justify-content-ms-start">
+              <h5 class="card-title ms-4">Multi-Post Stories</h5>
+              <ul class="list-inline-item">
+                <li class="list-inline-item text-black">FACEBOOK</li>
+                <li class="list-inline-item">
+                  <img src="./images/counter.png" alt="dot" />
+                </li>
+                <li class="list-inline-item text-black-50">Full Stack Dev</li>
+                <li class="span list-inline-item">
+                  <img src="./images/counter.png" alt="dot" />
+                </li>
+                <li class="list-inline-item text-black-50">2015</li>
+              </ul>
+              <p class="card-text ms-4">
+                Experimental content creation feature that allows users to<br />
+                add to an existing story over the course of a day without<br />
+                spamming their friends.
+              </p>
+              <ul class="list-inline-item">
+                <li class="list-inline-item">
+                  <img src="images/html.png" alt="html" />
+                </li>
+                <li class="list-inline-item">
+                  <img src="images/ruby.png" alt="css" />
+                </li>
+                <li class="list-inline-item">
+                  <img src="images/css.png" alt="css" />
+                </li>
+                <li class="list-inline-item">
+                  <img src="images/javascript.png" alt="js" />
+                </li>
+              </ul>
+              <button type="button" class="btn btn-primary col-4 ms-4">
+                See project
+              </button>
+            </div>
+            <img
+              src="./images/snapshootportfolio4.png"
+              alt="portfolio images2"
+            />
+          </div>
         </div>
-    </div>
-  </div>
-</article>
+      </article>
 
-<article class="mt-5">
-  <div class="card w-100%">
-    <div class="card-body d-flex flex-row">
+      <article class="mt-5">
+        <div class="card w-100%">
+          <div class="card-body d-flex flex-row">
+            <img
+              src="./images/snapshoot-portfolio.svg"
+              alt="portfolio images3"
+            />
 
-
-      <div class="d-flex flex-column justify-content-ms-start">
-      <h5 class="card-title ms-4">Multi-Post Stories</h5>
-<ul class="list-inline-item">
-<li class="list-inline-item text-black">FACEBOOK</li>
-<li class="list-inline-item"><img src="./images/counter.png" alt="dot"/></li>
-<li class="list-inline-item text-black-50">Full Stack Dev</li>
-<li class="span list-inline-item"><img src="./images/counter.png" alt="dot"/></li>
-<li class="list-inline-item text-black-50">2015</li>
-</ul>
-      <p class="card-text ms-4">Experimental content creation feature that allows users to<br>
-        add to an existing story over the course of a day without<br>
-         spamming their friends.</p>
-         <ul class="list-inline-item">
-           <li class="list-inline-item"><img src="images/html.png" alt="html"></li>
-           <li class="list-inline-item"><img src="images/css.png" alt="css"></li>
-           <li class="list-inline-item"><img src="images/javascript.png" alt="js"></li>
-         </ul>
-      <button type="button" class="btn btn-primary col-4 ms-4">See project</button>
+            <div class="d-flex flex-column justify-content-ms-end">
+              <h5 class="card-title ms-4">Tonic</h5>
+              <ul class="list-inline-itemt">
+                <li class="list-inline-item text-black">CANOPY</li>
+                <li class="list-inline-item">
+                  <img src="./images/counter.png" alt="dot" />
+                </li>
+                <li class="list-inline-item text-black-50">Back End Dev</li>
+                <li class="span list-inline-item">
+                  <img src="./images/counter.png" alt="dot" />
+                </li>
+                <li class="list-inline-item text-black-50">2015</li>
+              </ul>
+              <p class="card-text ms-4">
+                A daily selection of privately personalized reads; no
+                accounts<br />
+                or sign-ups required.
+              </p>
+              <ul class="list-inline-item">
+                <li class="list-inline-item">
+                  <img src="images/html.png" alt="html" />
+                </li>
+                <li class="list-inline-item">
+                  <img src="images/ruby.png" alt="css" />
+                </li>
+                <li class="list-inline-item">
+                  <img src="images/css.png" alt="css" />
+                </li>
+                <li class="list-inline-item">
+                  <img src="images/javascript.png" alt="js" />
+                </li>
+              </ul>
+              <button type="button" class="btn btn-primary col-4 ms-4">
+                See project
+              </button>
+            </div>
+          </div>
         </div>
-        <img src="./images/snapshoot-portfolio.svg" alt="portfolio images4">
-    </div>
+      </article>
 
-  </div>
-</article>
+      <article class="mt-5">
+        <div class="card w-100%">
+          <div class="card-body d-flex flex-row">
+            <div class="d-flex flex-column justify-content-ms-start">
+              <h5 class="card-title ms-4">Multi-Post Stories</h5>
+              <ul class="list-inline-item">
+                <li class="list-inline-item text-black">FACEBOOK</li>
+                <li class="list-inline-item">
+                  <img src="./images/counter.png" alt="dot" />
+                </li>
+                <li class="list-inline-item text-black-50">Full Stack Dev</li>
+                <li class="span list-inline-item">
+                  <img src="./images/counter.png" alt="dot" />
+                </li>
+                <li class="list-inline-item text-black-50">2015</li>
+              </ul>
+              <p class="card-text ms-4">
+                Experimental content creation feature that allows users to<br />
+                add to an existing story over the course of a day without<br />
+                spamming their friends.
+              </p>
+              <ul class="list-inline-item">
+                <li class="list-inline-item">
+                  <img src="images/html.png" alt="html" />
+                </li>
+                <li class="list-inline-item">
+                  <img src="images/ruby.png" alt="css" />
+                </li>
+                <li class="list-inline-item">
+                  <img src="./images/css.png" alt="css" />
+                </li>
+                <li class="list-inline-item">
+                  <img src="images/javascript.png" alt="js" />
+                </li>
+              </ul>
+              <button type="button" class="btn btn-primary col-4 ms-4">
+                See project
+              </button>
+            </div>
+            <img
+              src="./images/snapshoot-portfolio.svg"
+              alt="portfolio images4"
+            />
+          </div>
+        </div>
+      </article>
+    </section>
 
-</section>
-
-
-<main>
-      </main>
-      <script src="js/bootstrap.css"></script>
-   </body>
-
+    <main></main>
+    <script src="js/bootstrap.css"></script>
+  </body>
 </html>
