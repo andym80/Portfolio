@@ -1,4 +1,9 @@
-bg-image {
-	background-image: url('./images/headerbigscreen.svg');
-	height:70%;
+.bg-image {
+  background-image: url("./images/headerbigscreen.svg");
+  height: 70%;
+}
+
+.card2imgsize {
+  width: 50%;
+  height: 50%;
 }
